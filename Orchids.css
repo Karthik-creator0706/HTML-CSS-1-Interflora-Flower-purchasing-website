@@ -1,0 +1,996 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.top {
+    text-align: center;
+}
+
+.top1 {
+    background-color: #f9f1eb;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.top2 {
+    background-color: lightpink;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.top3 {
+    color: black;
+}
+
+.top3:hover {
+    color: #393E46;
+}
+
+.header1 {
+    padding-top: 20px;
+    display: flex;
+}
+
+.header2 {
+    color: black;
+    text-decoration: none;
+    font-size: 27px;
+    margin-left: 630px;
+}
+
+.header3 {
+    margin-left: 280px;
+    word-spacing: 15px;
+}
+
+.header4 {
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header4:hover {
+    text-decoration: underline;
+}
+
+.header5 {
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header5:hover {
+    text-decoration: underline;
+}
+
+.header6 {
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header6:hover {
+    text-decoration: underline;
+}
+
+.header7 {
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header7:hover {
+    text-decoration: underline;
+}
+
+.nav1 {
+    display: flex;
+    margin-left: 380px;
+    padding-top: 40px;
+    gap: 3rem;
+    font-size: 20px;
+    cursor: pointer;
+    padding-bottom: 30px;
+}
+
+
+.nav2 {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.child {
+    visibility: hidden;
+    width: 800px;
+    height: 420px;
+    background-color: #f9f1eb;
+    color: black;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    top: 25px;
+    left: -350px;
+    border: 1px solid black;
+
+}
+
+.nav2:hover .child {
+    visibility: visible;
+}
+
+.nava {
+    list-style-type: none;
+    margin-left: 90px;
+    padding-top: 50px;
+}
+
+.mp1 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.mpa {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.mpa:hover {
+    text-decoration: underline;
+}
+
+.mpb {
+    padding-bottom: 10px;
+}
+
+.navb {
+    list-style-type: none;
+    margin-left: 50px;
+    padding-top: 50px;
+}
+
+.navc {
+    list-style-type: none;
+    margin-left: 55px;
+    padding-top: 50px;
+}
+
+.nav3 {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.child1 {
+    visibility: hidden;
+    width: 820px;
+    height: 320px;
+    background-color: #f9f1eb;
+    color: black;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    top: 25px;
+    left: -360px;
+    border: 1px solid black;
+}
+
+.nav3:hover .child1 {
+    visibility: visible;
+}
+
+.nava {
+    list-style-type: none;
+    margin-left: 90px;
+    padding-top: 50px;
+}
+
+.mp1 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.mpa {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.mpa:hover {
+    text-decoration: underline;
+}
+
+.mpb {
+    padding-bottom: 10px;
+}
+
+.navb {
+    list-style-type: none;
+    margin-left: 50px;
+    padding-top: 50px;
+}
+
+.navc {
+    list-style-type: none;
+    margin-left: 55px;
+    padding-top: 50px;
+}
+
+
+.nav4 {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.child2 {
+    visibility: hidden;
+    width: 860px;
+    height: 330px;
+    background-color: #f9f1eb;
+    color: black;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    top: 25px;
+    left: -380px;
+    border: 1px solid black;
+}
+
+.nav4:hover .child2 {
+    visibility: visible;
+}
+
+.nava {
+    list-style-type: none;
+    margin-left: 90px;
+    padding-top: 50px;
+}
+
+.mp1 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.mpa {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.mpa:hover {
+    text-decoration: underline;
+}
+
+.mpb {
+    padding-bottom: 10px;
+}
+
+.navb {
+    list-style-type: none;
+    margin-left: 50px;
+    padding-top: 50px;
+}
+
+.navc {
+    list-style-type: none;
+    margin-left: 55px;
+    padding-top: 50px;
+}
+
+
+.nav5 {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.child3 {
+    visibility: hidden;
+    width: 760px;
+    height: 460px;
+    background-color: #f9f1eb;
+    color: black;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    top: 25px;
+    left: -350px;
+    border: 1px solid black;
+}
+
+.nav5:hover .child3 {
+    visibility: visible;
+}
+
+.nava {
+    list-style-type: none;
+    margin-left: 90px;
+    padding-top: 50px;
+}
+
+.mp1 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.mpa {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.mpa:hover {
+    text-decoration: underline;
+}
+
+.mpb {
+    padding-bottom: 10px;
+}
+
+.navb {
+    list-style-type: none;
+    margin-left: 50px;
+    padding-top: 50px;
+}
+
+.navc {
+    list-style-type: none;
+    margin-left: 55px;
+    padding-top: 50px;
+}
+
+
+
+.nav6 {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.child4 {
+    visibility: hidden;
+    width: 800px;
+    height: 420px;
+    background-color: #f9f1eb;
+    color: black;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    top: 25px;
+    left: -350px;
+    border: 1px solid black;
+}
+
+.nav6:hover .child4 {
+    visibility: visible;
+}
+
+.nava {
+    list-style-type: none;
+    margin-left: 90px;
+    padding-top: 50px;
+}
+
+.mp1 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.mpa {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.mpa:hover {
+    text-decoration: underline;
+}
+
+.mpb {
+    padding-bottom: 10px;
+}
+
+.navb {
+    list-style-type: none;
+    margin-left: 50px;
+    padding-top: 50px;
+}
+
+.navc {
+    list-style-type: none;
+    margin-left: 55px;
+    padding-top: 50px;
+}
+
+
+.nav7 {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.child5 {
+    visibility: hidden;
+    width: 780px;
+    height: 360px;
+    background-color: #f9f1eb;
+    color: black;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    top: 25px;
+    left: -350px;
+    border: 1px solid black;
+}
+
+.nav7:hover .child5 {
+    visibility: visible;
+}
+
+.nava {
+    list-style-type: none;
+    margin-left: 90px;
+    padding-top: 50px;
+}
+
+.mp1 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.mpa {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.mpa:hover {
+    text-decoration: underline;
+}
+
+.mpb {
+    padding-bottom: 10px;
+}
+
+.navd {
+    list-style-type: none;
+    margin-left: 50px;
+    padding-top: 90px;
+}
+
+.navc1 {
+    list-style-type: none;
+    margin-left: 70px;
+    padding-top: 50px;
+}
+
+
+.absa {
+    padding-top: 30px;
+    margin-left: 50px;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.abs1,
+.abs2 {
+    color: black;
+    text-decoration: none;
+}
+
+.abs2:hover {
+    text-decoration: underline;
+}
+
+.abs1:hover {
+    text-decoration: underline;
+}
+
+.absb {
+    margin-left: 50px;
+    padding-bottom: 50px;
+}
+
+.abs4 {
+    font-size: 35px;
+    padding-bottom: 15px;
+}
+
+.abs5 {
+    font-size: 17px;
+    line-height: 23px;
+    margin-right: 40px;
+}
+
+.referencebox {
+    margin-left: 50px;
+    padding-bottom: 40px;
+}
+
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content1 {
+    visibility: hidden;
+    width: 155px;
+    background-color: #f9f1eb;
+    color: black;
+    text-align: left;
+    border-radius: 6px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    top: 48px;
+    left: 0;
+    font-size: 17px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    line-height: 30px;
+}
+
+.input {
+    margin-left: 14px;
+
+}
+
+.dropdown1:hover .dropdown-content1 {
+    visibility: visible;
+}
+
+.button1 {
+    padding: 13px 20px;
+    font-size: 15px;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.input {
+    padding-bottom: 15px;
+}
+
+
+
+.dropdown2 {
+    margin-left: 15px;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content2 {
+    visibility: hidden;
+    width: 159px;
+    background-color: #f9f1eb;
+    color: black;
+    text-align: left;
+    border-radius: 6px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    top: 48px;
+    left: 0;
+    font-size: 17px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    line-height: 30px;
+}
+
+.input1 {
+    margin-left: 12px;
+}
+
+.dropdown2:hover .dropdown-content2 {
+    visibility: visible;
+}
+
+.button2 {
+    padding: 13px 40px;
+    font-size: 15px;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.dropdown3 {
+    margin-left: 15px;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content3 {
+    visibility: hidden;
+    width: 149px;
+    background-color: #f9f1eb;
+    color: black;
+    text-align: left;
+    border-radius: 6px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    top: 48px;
+    left: 0;
+    font-size: 17px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    line-height: 30px;
+}
+
+.input2 {
+    margin-left: 22px;
+}
+
+.dropdown3:hover .dropdown-content3 {
+    visibility: visible;
+}
+
+.button3 {
+    padding: 13px 30px;
+    font-size: 15px;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.dropdown4 {
+    margin-left: 15px;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content4 {
+    visibility: hidden;
+    width: 114px;
+    background-color: #f9f1eb;
+    color: black;
+    text-align: left;
+    border-radius: 6px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    top: 48px;
+    left: 0;
+    font-size: 17px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    line-height: 30px;
+}
+
+.input3 {
+    margin-left: 9px;
+}
+
+.dropdown4:hover .dropdown-content4 {
+    visibility: visible;
+}
+
+.button4 {
+    padding: 13px 35px;
+    font-size: 15px;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.dropdown5 {
+    margin-left: 15px;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content5 {
+    visibility: hidden;
+    width: 160px;
+    background-color: #f9f1eb;
+    color: black;
+    text-align: left;
+    border-radius: 6px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    top: 48px;
+    left: 0;
+    font-size: 17px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    line-height: 30px;
+}
+
+.input4 {
+    margin-left: 20px;
+}
+
+.dropdown5:hover .dropdown-content5 {
+    visibility: visible;
+}
+
+.button5 {
+    padding: 13px 35px;
+    font-size: 15px;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+.boxborder {
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 50px;
+}
+
+.box {
+    margin-left: 52.5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 50px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    position: relative;
+    transition: 0.3s ease;
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
+
+.discount {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    border: 1px solid black;
+    padding: 5px;
+    border-color: orange;
+    background-color: orange;
+    color: black;
+    border-radius: 3px;
+    z-index: -1;
+}
+
+.image {
+    text-align: center;
+    transition: 0.3s ease;
+    overflow: hidden;
+}
+
+.image:hover {
+    transform: scale(1.1);
+}
+
+.icon {
+    border: 1px solid lightpink;
+    border-radius: 4px;
+    background-color: lightpink;
+    padding: 5px;
+}
+
+.icon1 {
+    padding-right: 20px;
+    color: black;
+}
+
+.icon1:hover {
+    color: brown;
+}
+
+.icon2 {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.icon2:hover {
+    color: brown;
+}
+
+.icon3 {
+    padding-left: 20px;
+    color: black;
+}
+
+.icon3:hover {
+    color: brown;
+}
+
+.tag {
+    padding-top: 10px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.head {
+    font-size: 20px;
+    padding-top: 16px;
+}
+
+.price {
+    /* padding-left: 20px; */
+    font-size: 21px;
+}
+
+.price1 {
+    color: #333;
+}
+
+.par {
+    font-size: 14px;
+    color: brown;
+}
+
+
+.rosesa {
+    padding-top: 10px;
+    margin-left: 50px;
+}
+
+.roses1 {
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.roses2 {
+    font-size: 23px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+.roses3 {
+    margin-right: 40px;
+    font-size: 17px;
+    line-height: 23px;
+    padding-bottom: 15px;
+}
+
+.rosesb {
+    margin-left: 15px;
+    padding-bottom: 15px;
+    line-height: 35px;
+    font-size: 17px;
+    margin-right: 40px;
+}
+
+
+
+.foot1 {
+    background-color: #f9f1eb;
+    height: 750px;
+    padding-left: 150px;
+    padding-right: 150px;
+    position: relative;
+    padding-top: 30px;
+}
+
+.foot2 {
+    padding-top: 20px;
+}
+
+.foot3 {
+    position: absolute;
+    top: 0;
+    left: 480px;
+    padding-top: 100px;
+}
+
+.foot4 {
+    position: absolute;
+    top: 0;
+    left: 810px;
+    padding-top: 100px;
+}
+
+.foot5 {
+    position: absolute;
+    top: 0;
+    left: 1110px;
+    padding-top: 100px;
+}
+
+.foota {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.footb {
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.footc {
+    font-size: 18px;
+}
+
+.footd {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.foote {
+    padding-bottom: 10px;
+}
+
+.footd:hover {
+    text-decoration: underline;
+}
+
+.f {
+    font-size: 17px;
+    padding-bottom: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+.f:hover {
+    text-decoration: underline;
+}
+
+.footf {
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.footg {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.footg:hover {
+    text-decoration: underline;
+
+}
+
+.footi {
+    padding-bottom: 8px;
+}
+
+.footj {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.footj:hover {
+    text-decoration: underline;
+}
+
+.foot6 {
+    word-spacing: 12px;
+}
+
+.foot7 {
+    padding-top: 140px;
+    text-align: center;
+}

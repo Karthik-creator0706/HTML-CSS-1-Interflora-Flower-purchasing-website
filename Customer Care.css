@@ -1,0 +1,794 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.top {
+    text-align: center;
+}
+
+.top1 {
+    background-color: #f9f1eb;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.top2 {
+    background-color: lightpink;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.top3 {
+    color: black;
+}
+
+.top3:hover {
+    color: #393E46;
+}
+
+.header1 {
+    padding-top: 20px;
+    display: flex;
+}
+
+.header2 {
+    color: black;
+    text-decoration: none;
+    font-size: 27px;
+    margin-left: 630px;
+}
+
+.header3 {
+    margin-left: 280px;
+    /* word-spacing: 15px; */
+}
+
+.header4 {
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header4:hover {
+    text-decoration: underline;
+}
+
+.header5 {
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 13px;
+}
+
+.header5:hover {
+    text-decoration: underline;
+}
+
+.header6 {
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 13px;
+}
+
+.header6:hover {
+    text-decoration: underline;
+}
+
+.header7 {
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 13px;
+}
+
+.header7:hover {
+    text-decoration: underline;
+}
+
+.header8 {
+    padding-left: 13px;
+}
+
+.nav1 {
+    display: flex;
+    margin-left: 380px;
+    padding-top: 40px;
+    gap: 3rem;
+    font-size: 20px;
+    cursor: pointer;
+    padding-bottom: 30px;
+}
+
+
+.nav2 {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.child {
+    visibility: hidden;
+    width: 800px;
+    height: 420px;
+    background-color: #f9f1eb;
+    color: black;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    top: 25px;
+    left: -350px;
+    border: 1px solid black;
+
+}
+
+.nav2:hover .child {
+    visibility: visible;
+}
+
+.nava {
+    list-style-type: none;
+    margin-left: 90px;
+    padding-top: 50px;
+}
+
+.mp1 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.mpa {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.mpa:hover {
+    text-decoration: underline;
+}
+
+.mpb {
+    padding-bottom: 10px;
+}
+
+.navb {
+    list-style-type: none;
+    margin-left: 50px;
+    padding-top: 50px;
+}
+
+.navc {
+    list-style-type: none;
+    margin-left: 55px;
+    padding-top: 50px;
+}
+
+.nav3 {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.child1 {
+    visibility: hidden;
+    width: 820px;
+    height: 320px;
+    background-color: #f9f1eb;
+    color: black;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    top: 25px;
+    left: -360px;
+    border: 1px solid black;
+}
+
+.nav3:hover .child1 {
+    visibility: visible;
+}
+
+.nava {
+    list-style-type: none;
+    margin-left: 90px;
+    padding-top: 50px;
+}
+
+.mp1 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.mpa {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.mpa:hover {
+    text-decoration: underline;
+}
+
+.mpb {
+    padding-bottom: 10px;
+}
+
+.navb {
+    list-style-type: none;
+    margin-left: 50px;
+    padding-top: 50px;
+}
+
+.navc {
+    list-style-type: none;
+    margin-left: 55px;
+    padding-top: 50px;
+}
+
+
+.nav4 {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.child2 {
+    visibility: hidden;
+    width: 860px;
+    height: 330px;
+    background-color: #f9f1eb;
+    color: black;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    top: 25px;
+    left: -380px;
+    border: 1px solid black;
+}
+
+.nav4:hover .child2 {
+    visibility: visible;
+}
+
+.nava {
+    list-style-type: none;
+    margin-left: 90px;
+    padding-top: 50px;
+}
+
+.mp1 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.mpa {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.mpa:hover {
+    text-decoration: underline;
+}
+
+.mpb {
+    padding-bottom: 10px;
+}
+
+.navb {
+    list-style-type: none;
+    margin-left: 50px;
+    padding-top: 50px;
+}
+
+.navc {
+    list-style-type: none;
+    margin-left: 55px;
+    padding-top: 50px;
+}
+
+
+.nav5 {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.child3 {
+    visibility: hidden;
+    width: 760px;
+    height: 460px;
+    background-color: #f9f1eb;
+    color: black;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    top: 25px;
+    left: -350px;
+    border: 1px solid black;
+}
+
+.nav5:hover .child3 {
+    visibility: visible;
+}
+
+.nava {
+    list-style-type: none;
+    margin-left: 90px;
+    padding-top: 50px;
+}
+
+.mp1 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.mpa {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.mpa:hover {
+    text-decoration: underline;
+}
+
+.mpb {
+    padding-bottom: 10px;
+}
+
+.navb {
+    list-style-type: none;
+    margin-left: 50px;
+    padding-top: 50px;
+}
+
+.navc {
+    list-style-type: none;
+    margin-left: 55px;
+    padding-top: 50px;
+}
+
+
+
+.nav6 {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.child4 {
+    visibility: hidden;
+    width: 800px;
+    height: 420px;
+    background-color: #f9f1eb;
+    color: black;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    top: 25px;
+    left: -350px;
+    border: 1px solid black;
+}
+
+.nav6:hover .child4 {
+    visibility: visible;
+}
+
+.nava {
+    list-style-type: none;
+    margin-left: 90px;
+    padding-top: 50px;
+}
+
+.mp1 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.mpa {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.mpa:hover {
+    text-decoration: underline;
+}
+
+.mpb {
+    padding-bottom: 10px;
+}
+
+.navb {
+    list-style-type: none;
+    margin-left: 50px;
+    padding-top: 50px;
+}
+
+.navc {
+    list-style-type: none;
+    margin-left: 55px;
+    padding-top: 50px;
+}
+
+
+.nav7 {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.child5 {
+    visibility: hidden;
+    width: 780px;
+    height: 360px;
+    background-color: #f9f1eb;
+    color: black;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    top: 25px;
+    left: -350px;
+    border: 1px solid black;
+}
+
+.nav7:hover .child5 {
+    visibility: visible;
+}
+
+.nava {
+    list-style-type: none;
+    margin-left: 90px;
+    padding-top: 50px;
+}
+
+.mp1 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.mpa {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.mpa:hover {
+    text-decoration: underline;
+}
+
+.mpb {
+    padding-bottom: 10px;
+}
+
+.navd {
+    list-style-type: none;
+    margin-left: 50px;
+    padding-top: 90px;
+}
+
+.navc1 {
+    list-style-type: none;
+    margin-left: 70px;
+    padding-top: 50px;
+}
+
+.customer {
+    background-image: url(/images/customerservice1.jpeg);
+    width: 100%;
+    height: 600px;
+}
+
+.customer1 {
+    font-size: 45px;
+    padding-top: 50px;
+    text-align: center;
+    padding-top: 240px;
+}
+
+.customer2 {
+    font-size: 26px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.greybox {
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.greybox1 {
+    border: 1px solid black;
+    height: 250px;
+    width: 650px;
+    border-radius: 30px;
+    background-color: #F5F5F5;
+    padding-left: 30px;
+    padding-right: 10px;
+    position: relative;
+}
+
+.grey1 {
+    padding-top: 25px;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.grey2 {
+    padding-bottom: 15px;
+}
+
+.grey3 {
+    padding-bottom: 26px;
+}
+
+.grey5 {
+    color: black;
+    font-size: 18px;
+}
+
+.grey6 {
+    color: black;
+    font-size: 18px;
+}
+
+.grey4 {
+    font-size: 18px;
+}
+
+.greybox2 {
+    border: 1px solid black;
+    height: 250px;
+    width: 640px;
+    border-radius: 30px;
+    background-color: #F5F5F5;
+    padding-left: 30px;
+    padding-right: 10px;
+    position: absolute;
+    top: 0;
+    left: 730px;
+}
+
+.box1 {
+    padding-top: 25px;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.box2 {
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.box5 {
+    color: black;
+}
+
+.box3 {
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.box6 {
+    color: black;
+}
+
+
+.box4 {
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.box7 {
+    color: black;
+}
+
+.properks2 {
+    padding-top: 50px;
+    padding-bottom: 70px;
+
+}
+
+.properks10 {
+    font-size: 30px;
+    margin-left: 50px;
+    padding-top: 50px;
+}
+
+.properks11 {
+    padding-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.border1 {
+    border: 3px solid #f9f1eb;
+    padding: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.border2 {
+    padding-top: 20px;
+    margin-left: 20px;
+    line-height: 23px;
+    font-size: 16px;
+}
+
+.border3 {
+    margin-left: 20px;
+    line-height: 23px;
+    padding-top: 7px;
+    font-size: 16px;
+}
+
+.border4 {
+    padding-top: 20px;
+    margin-left: 20px;
+    line-height: 23px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.properks9 {
+    padding-bottom: 50px;
+}
+
+.properks12 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.properks13 {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.properks14 {
+    font-size: 17px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.foot1 {
+    background-color: #f9f1eb;
+    height: 750px;
+    padding-left: 150px;
+    padding-right: 150px;
+    position: relative;
+    padding-top: 30px;
+}
+
+.foot2 {
+    padding-top: 20px;
+}
+
+.foot3 {
+    position: absolute;
+    top: 0;
+    left: 480px;
+    padding-top: 100px;
+}
+
+.foot4 {
+    position: absolute;
+    top: 0;
+    left: 810px;
+    padding-top: 100px;
+}
+
+.foot5 {
+    position: absolute;
+    top: 0;
+    left: 1110px;
+    padding-top: 100px;
+}
+
+.foota {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.footb {
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.footc {
+    font-size: 18px;
+}
+
+.footd {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.foote {
+    padding-bottom: 10px;
+}
+
+.footd:hover {
+    text-decoration: underline;
+}
+
+.f {
+    font-size: 17px;
+    padding-bottom: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+.f:hover {
+    text-decoration: underline;
+}
+
+.footf {
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.footg {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.footg:hover {
+    text-decoration: underline;
+
+}
+
+.footi {
+    padding-bottom: 8px;
+}
+
+.footj {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.footj:hover {
+    text-decoration: underline;
+}
+
+.foot6 {
+    word-spacing: 12px;
+}
+
+.foot7 {
+    padding-top: 140px;
+    text-align: center;
+}
